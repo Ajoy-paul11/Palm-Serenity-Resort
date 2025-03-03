@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    --primary-bg-color: #ffffff;
+    --primary-text-color: #2C3E50;
+    --hover-text-color: #16A085;
+}
+
+.bg-color {
+    background-color: var(--primary-bg-color);
+}
+
+.primary-text-color {
+    color: var(--primary-text-color);
+}
+
+.hover-color{
+    color: var(--hover-text-color);
+}
+
+.cta-text-color{
+    color: var(--hover-text-color)
+}
+
+.cta-bg-color{
+    background-color: var(--hover-text-color);
+}

@@ -7,13 +7,14 @@ import { Link as ScrollLink } from 'react-scroll';
 function Footer() {
     return (
         <footer className="bg-[#2C3E50] text-white">
+          <hr className=' w-[95%] mx-auto'/>
           <div className="container mx-auto px-4 py-16">
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
               {/* Company Info */}
               <div>
                 <h4 className="text-xl font-bold mb-4">Palm Serenity Resort Plot</h4>
                 <p className="text-white/80 mb-6 ">
-                 Promoted by <span className=' font-semibold cta-text-color'>DS Marcom</span>
+                 Promoted by <span className=' font-bold cta-text-color'>DS Marcom</span>
                 </p>
               </div>
     

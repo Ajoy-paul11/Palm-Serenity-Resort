@@ -75,14 +75,14 @@ function Amenities() {
               key={index}
               className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4 text-primary">
+              <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4 text-primary mx-auto">
               <img 
                   src={amenity.icon} 
                   alt={amenity.title}
                   className="w-16 h-16 object-contain"
                 />
               </div>
-              <h4 className="text-lg font-semibold mb-2 primary-text-color">{amenity.title}</h4>
+              <h4 className="text-lg font-semibold mb-2 primary-text-color text-center  ">{amenity.title}</h4>
             </div>
           ))}
         </div>

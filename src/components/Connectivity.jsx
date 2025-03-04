@@ -48,13 +48,13 @@ function Connectivity() {
           alt="master-plan-image"
           className=" rounded-xl mx-auto"
         />
-        <div className=" px-6 py-10 container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 xl:gap-2">
+        <div className=" px-6 py-10 container mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  xl:gap-2">
             {cardContent.map((card, index) => (
-                <div key={index} className=" my-6 mx-auto">
-                    <h2 className=" text-white text-xl font-semibold w-[250px] mb-3">{card.title}</h2>
+                <div key={index} className=" my-6 mx-auto bg-color rounded-lg p-4">
+                    <h2 className=" cta-text-color text-xl lg:text-2xl font-semibold w-[250px] mb-3">{card.title}</h2>
                     <ul className=" list-disc list-inside w-[220px]">
                         {card.place.map((place, index) => (
-                            <li key={index} className=" text-white text-base">{place}</li>
+                            <li key={index} className=" cta-text-color text-base">{place}</li>
                         ))}
                     </ul>
                 </div>

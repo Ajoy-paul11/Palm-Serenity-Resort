@@ -10,9 +10,9 @@ function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Company Info */}
               <div>
-                <h4 className="text-xl font-bold mb-4">LuxuryEstates</h4>
-                <p className="text-white/80 mb-6">
-                  Providing exceptional real estate opportunities in the most desirable locations worldwide.
+                <h4 className="text-xl font-bold mb-4">Palm Serenity Resort Plot</h4>
+                <p className="text-white/80 mb-6 ">
+                 Promoted by <span className=' font-semibold cta-text-color'>DS Marcom</span>
                 </p>
               </div>
     

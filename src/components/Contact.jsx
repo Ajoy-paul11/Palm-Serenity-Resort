@@ -56,10 +56,6 @@ function Contact() {
   return (
     <section id="contact" className="py-12 bg-[#2C3E50]">
       <div className="container mx-auto px-4">
-      <div className=" w-[180px] h-[40px] mx-auto my-6 cta-bg-color rounded-tl-full rounded-br-full flex justify-center items-center">
-          <h2 className=" text-white text-xl lg:text-3xl font-bold">Amenities</h2>
-        </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           
           {/* Google Map */}

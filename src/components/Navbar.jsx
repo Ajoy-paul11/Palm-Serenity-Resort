@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
-import { Link } from "react-router";
+import { Link } from "react-scroll";
 import { FaWpforms } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
 import Logo from "../assets/palm-serenity-logo.png";
@@ -16,6 +16,8 @@ function NavItem({ title }) {
     >
       <Link
         to={title.toLowerCase()}
+        smooth={true}
+        duration={800}
         className="px-4 lg:px-1 xl:px-4 py-2 text-[#2C3E50] font-bold hover:text-[#16A085] flex items-center"
       >
         {title}
@@ -41,7 +43,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="bg-color shadow-lg shadow-black/50 relative z-20">
+    <nav className="bg-color shadow-lg shadow-black/50 relative z-20" id="home" >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1 xl:px-8">
         <div className="flex items-center justify-between lg:justify-around xl:justify-between h-16">
           <div className="flex-shrink-0 primary-text-color font-bold pt-8">

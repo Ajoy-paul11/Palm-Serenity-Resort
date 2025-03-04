@@ -3,7 +3,7 @@ import masterPlan from "../assets/palm-plan.jpg";
 
 function MasterPlan() {
   return (
-    <section id="masterplan" className="py-8 bg-[#F9F9F9]">
+    <section id="master plan" className="py-8 bg-[#F9F9F9]">
       <div className=" w-[200px] h-[40px] mx-auto my-4 cta-bg-color rounded-tl-full rounded-br-full flex justify-center items-center">
         <h2 className=" text-white text-xl lg:text-3xl font-bold">Master Plan</h2>
       </div>

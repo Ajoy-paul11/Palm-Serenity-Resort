@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import LeadForm from './components/LeadForm'
 import { RxCross2 } from 'react-icons/rx'
+import Connectivity from './components/Connectivity'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Gallery />
       <MasterPlan />
       <Amenities />
+      <Connectivity />
       <Contact />
       <Footer />
       </BrowserRouter>

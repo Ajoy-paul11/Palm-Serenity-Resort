@@ -59,7 +59,7 @@ function Footer() {
             </div>
     
             <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-              <p className="text-white text-sm">&copy; {new Date().getFullYear()} Pulm Serenity. All rights reserved.</p>
+              <p className="text-white text-sm">&copy; {new Date().getFullYear()} Palm Serenity Resort Plot. All rights reserved.</p>
             </div>
           </div>
         </footer>

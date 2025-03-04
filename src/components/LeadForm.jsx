@@ -1,8 +1,9 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Fieldset } from "@mantine/core";
 import { Input } from "@mantine/core";
 import { toast } from "react-toastify";
+import { Checkbox } from '@mantine/core';
 
 function LeadForm() {
   const {
@@ -131,6 +132,20 @@ function LeadForm() {
               {errors.phone && (
                 <p className="mt-1 text-sm text-red-600">
                   {errors.phone.message}
+                </p>
+              )}
+            </div>
+            <div className=" my-4">
+              <Checkbox
+                label="I agree to the terms and conditions"
+                {...register("terms", {
+                  required: "You must agree to the terms and conditions",
+                })}
+                className=" cursor-pointer text-[#505050]"
+              />
+              {errors.terms && (
+                <p className="mt-1 text-sm text-red-600">
+                  {errors.terms.message}
                 </p>
               )}
             </div>

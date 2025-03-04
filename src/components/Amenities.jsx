@@ -16,51 +16,51 @@ function Amenities() {
   const amenities = [
     {
       icon: aminity1,
-      title: "High-Speed Internet",
+      title: "Swimming Pool with Deck",
     },
     {
       icon: aminity2,
-      title: "24/7 Security",
+      title: "Yoga Pavilion",
     },
     {
       icon: aminity3,
-      title: "Fitness Center",
+      title: "Club House",
     },
     {
       icon: aminity4,
-      title: "Gourmet Kitchen",
+      title: "Hammock Lawn",
     },
     {
       icon: aminity5,
-      title: "Parking Garage",
+      title: "Party Lawn",
     },
     {
       icon: aminity6,
-      title: "Landscaped Gardens",
+      title: "Cascading Waterfall",
     },
     {
       icon: aminity7,
-      title: "Swimming Pool",
+      title: "Barbeque Area",
     },
     {
       icon: aminity8,
-      title: "Community Spaces",
+      title: "Kids Play Area",
     },
     {
       icon: aminity9,
-      title: "Smart Home Systems",
+      title: "24/7 Security with CCTV",
     },
     {
       icon: aminity10,
-      title: "Home Theater",
+      title: "Tropical Lawn",
     },
     {
       icon: aminity11,
-      title: "Climate Control",
+      title: "Multi-Hoop Basketball Court",
     },
     {
       icon: aminity12,
-      title: "Spa Facilities",
+      title: "Bonfire Area",
     },
   ];
   return (

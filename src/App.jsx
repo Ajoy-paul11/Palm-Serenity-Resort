@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
-import { BrowserRouter } from 'react-router'
 import HeroSection from './components/HeroSection'
 import Overview from './components/Overview'
 import Gallery from './components/Gallery'
@@ -12,6 +11,7 @@ import Footer from './components/Footer'
 import LeadForm from './components/LeadForm'
 import { RxCross2 } from 'react-icons/rx'
 import Connectivity from './components/Connectivity'
+import ScrollToTop from './components/ScrollToTop'
 
 
 function App() {
@@ -27,9 +27,9 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
       <ToastContainer />
       {open ? <ModalForm setOpen={setOpen} /> : ""}
+      <ScrollToTop />
       <Navbar />
       <HeroSection />
       <Overview />
@@ -39,7 +39,6 @@ function App() {
       <Connectivity />
       <Contact />
       <Footer />
-      </BrowserRouter>
     </>
   )
 }

@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import { FaWpforms } from "react-icons/fa";
 import { HiMenu, HiX } from "react-icons/hi";
 import Logo from "../assets/palm-serenity-logo.png";
+import { Link as RouterLink } from "react-router";
 
 function NavItem({ title }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,9 +48,9 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1 xl:px-8">
         <div className="flex items-center justify-between lg:justify-around xl:justify-between h-16">
           <div className="flex-shrink-0 primary-text-color font-bold pt-8">
-            <Link to="/">
+            <RouterLink to="/">
               <img src={Logo} alt="logo" className="w-[120px] rounded-xl" />
-            </Link>
+            </RouterLink>
           </div>
 
           {/* Desktop Navigation */}

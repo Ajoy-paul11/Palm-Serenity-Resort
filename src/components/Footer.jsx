@@ -22,7 +22,7 @@ function Footer() {
               <div>
                 <h4 className="text-xl font-bold mb-4">Quick Links</h4>
                 <ul className="space-y-2">
-                  <WebLink href="home">Home</WebLink>
+                  <FooterLink href="/">Home</FooterLink>
                   <WebLink href="overview">Overview</WebLink>
                   <WebLink href="gallery">Gallery</WebLink>
                   <WebLink href="amenities">Amenities</WebLink>
@@ -35,8 +35,7 @@ function Footer() {
                 <h4 className="text-xl font-bold mb-4">Legal</h4>
                 <ul className="space-y-2">
                   <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
-                  <FooterLink href="/terms-conditions">Terms & Conditions</FooterLink>
-                  <FooterLink href="/disclaimer">Disclaimer</FooterLink>
+                  <FooterLink href="/terms-and-conditions">Terms & Conditions</FooterLink>
                   <FooterLink href="/cookie-policy">Cookie Policy</FooterLink>
                 </ul>
               </div>

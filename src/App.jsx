@@ -12,6 +12,8 @@ import LeadForm from './components/LeadForm'
 import { RxCross2 } from 'react-icons/rx'
 import Connectivity from './components/Connectivity'
 import ScrollToTop from './components/ScrollToTop'
+import bodyBg from '../src/assets/palm-body-bg.jpg'
+import ProjectConfiguration from './components/ProjectConfiguration'
 
 
 function App() {
@@ -26,20 +28,21 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div style={{ backgroundImage: `url(${bodyBg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' , backgroundAttachment: 'fixed', height: '100%'}}>
       <ToastContainer />
       {open ? <ModalForm setOpen={setOpen} /> : ""}
       <ScrollToTop />
       <Navbar />
       <HeroSection />
       <Overview />
+      <ProjectConfiguration />
       <Gallery />
       <MasterPlan />
       <Amenities />
       <Connectivity />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }
 

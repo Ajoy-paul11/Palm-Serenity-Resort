@@ -64,7 +64,7 @@ function Amenities() {
     },
   ];
   return (
-    <section id="amenities" className=" py-16 ">
+    <section id="amenities" className=" py-16 bg-white">
       <div className=" container mx-auto px-4">
         <div className=" w-[180px] h-[40px] mx-auto my-4 cta-bg-color rounded-tl-full rounded-br-full flex justify-center items-center">
           <h2 className=" text-white text-xl lg:text-3xl font-bold">Amenities</h2>

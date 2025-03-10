@@ -4,6 +4,7 @@ import { Fieldset } from "@mantine/core";
 import { Input } from "@mantine/core";
 import { toast } from "react-toastify";
 import { Checkbox } from '@mantine/core';
+import brochure from "../assets/Palm-Brochure.pdf";
 
 function LeadForm() {
   const {
@@ -36,10 +37,11 @@ function LeadForm() {
           event: "form_submission",
           formId: "admission_form",
         });
-
+        
         toast.success("Message sent Successfully");
 
         reset();
+        downLoadBrochure();
       } else {
         toast.error(result.message || "Failed to send message");
         reset();
@@ -50,6 +52,15 @@ function LeadForm() {
       setIsSubmitting(false);
     }
   };
+
+  const downLoadBrochure = () => {
+    const link = document.createElement("a");
+    link.href = brochure;
+    link.download = "PalmSerenityResortPlot-Brochure";
+    link.click();
+    link.remove();
+    toast.success("Brochure Downloaded Successfully");
+  }
   return (
     <>
       {/* Contact Form */}

@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import Terms from "./components/Terms.jsx";
 import Cookies from "./components/Cookies.jsx";
+import Thankyou from "./components/Thankyou.jsx";
 
 
 createRoot(document.getElementById("root")).render(
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
           <Route path="/cookie-policy" element={<Cookies />}/>
+          <Route path="/thankyou" element={<Thankyou />}/>
         </Routes>
       </BrowserRouter>
     </MantineProvider>

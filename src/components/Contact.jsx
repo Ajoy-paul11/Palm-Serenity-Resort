@@ -4,7 +4,7 @@ import { Fieldset } from "@mantine/core";
 import { Input } from "@mantine/core";
 import { Checkbox } from '@mantine/core';
 import { toast } from "react-toastify";
-
+import { useNavigate } from 'react-router';
 function Contact() {
     const {
         register,
@@ -13,7 +13,7 @@ function Contact() {
         formState: { errors },
       } = useForm();
 
-
+      const navigate = useNavigate();
       const [isSubmitting, setIsSubmitting] = useState(false);
     
       const onSubmit = async (data) => {
@@ -59,6 +59,7 @@ function Contact() {
           link.remove();
 
           toast.success("Brochure Downloaded Successfully");
+          navigate("/thankyou");
         }
 
   return (

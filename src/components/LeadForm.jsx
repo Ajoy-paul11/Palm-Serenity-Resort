@@ -5,6 +5,7 @@ import { Input } from "@mantine/core";
 import { toast } from "react-toastify";
 import { Checkbox } from '@mantine/core';
 import brochure from "../assets/Palm-Brochure.pdf";
+import { useNavigate } from "react-router";
 
 function LeadForm() {
   const {
@@ -14,6 +15,7 @@ function LeadForm() {
     formState: { errors },
   } = useForm();
 
+  const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const onSubmit = async (data) => {
@@ -59,6 +61,7 @@ function LeadForm() {
     link.remove();
 
     toast.success("Brochure Downloaded Successfully");
+    navigate("/thankyou");
   }
 
   return (

@@ -14,7 +14,7 @@ function Thankyou() {
         id="home"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1 xl:px-8">
-          <div className="flex items-center justify-between  xl:justify-between h-16">
+          <div className="flex items-center justify-between xl:justify-between h-16">
             <div className="flex-shrink-0 primary-text-color font-bold pt-8">
               <Link to="/">
                 <img src={Logo} alt="logo" className="w-[120px] rounded-xl" />
@@ -23,7 +23,7 @@ function Thankyou() {
           </div>
         </div>
       </nav>
-      <div className=" container mx-auto w-full h-full flex flex-col gap-6 lg:gap-10 p-4 py-16 lg:py-0 lg:p-16">
+      <div className=" container mx-auto w-full h-full flex flex-col gap-6 lg:gap-10 p-4 py-16 lg:p-16">
         <div className=" text-lg lg:text-2xl px-2 lg:px-24 py-4 lg:py-10 ">
         <div className=" text-blue-500 hover:text-purple-600 inline-flex items-center gap-2">
         <span ><FaChevronLeft /></span>

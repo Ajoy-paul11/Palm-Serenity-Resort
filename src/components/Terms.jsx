@@ -45,7 +45,7 @@ function Terms() {
         <ScrollToTop />
         <nav className="bg-color shadow-lg shadow-black/50 relative z-20" id="home" >
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1 xl:px-8">
-                <div className="flex items-center justify-between lg:justify-around xl:justify-between h-16">
+                <div className="flex items-center justify-between xl:justify-between h-16">
                   <div className="flex-shrink-0 primary-text-color font-bold pt-8">
                     <Link to="/">
                       <img src={Logo} alt="logo" className="w-[120px] rounded-xl" />

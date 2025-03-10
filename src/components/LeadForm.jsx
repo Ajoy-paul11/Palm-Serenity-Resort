@@ -37,8 +37,6 @@ function LeadForm() {
           event: "form_submission",
           formId: "admission_form",
         });
-        
-        toast.success("Message sent Successfully");
 
         reset();
         downLoadBrochure();
@@ -59,8 +57,10 @@ function LeadForm() {
     link.download = "PalmSerenityResortPlot-Brochure";
     link.click();
     link.remove();
+
     toast.success("Brochure Downloaded Successfully");
   }
+
   return (
     <>
       {/* Contact Form */}

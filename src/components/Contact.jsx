@@ -4,7 +4,6 @@ import { Fieldset } from "@mantine/core";
 import { Input } from "@mantine/core";
 import { Checkbox } from '@mantine/core';
 import { toast } from "react-toastify";
-import { IoIosSend } from "react-icons/io";
 
 function Contact() {
     const {
@@ -39,9 +38,8 @@ function Contact() {
               formId: "admission_form",
             });
     
-            toast.success("Message sent Successfully");
-    
             reset();
+            downLoadBrochure();
           } else {
             toast.error(result.message || "Failed to send message");
             reset()
@@ -53,6 +51,16 @@ function Contact() {
           setIsSubmitting(false);
         }
       };
+      const downLoadBrochure = () => {
+          const link = document.createElement("a");
+          link.href = brochure;
+          link.download = "PalmSerenityResortPlot-Brochure";
+          link.click();
+          link.remove();
+
+          toast.success("Brochure Downloaded Successfully");
+        }
+
   return (
     <section id="contact" className="py-12 bg-[#2C3E50]">
       <div className="container mx-auto px-4">

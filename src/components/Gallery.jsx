@@ -17,22 +17,22 @@ function Gallery() {
       
       <div className="  bg-color grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-10 p-8 lg:px-12 xl:px-16 ">
         <div className=" bg-color rounded-lg overflow-hidden shadow-[0_4px_6px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out cursor-pointer ">
-          <img title="Click to see more" src={image1} alt="alt" className="" />
+          <img src={image1} alt="alt" />
         </div>
         <div className=" bg-color rounded-lg overflow-hidden shadow-[0_4px_6px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out cursor-pointer ">
-          <img title="Click to see more" src={image2} alt="alt" className="" />
+          <img src={image2} alt="alt" />
         </div>
         <div className=" bg-color rounded-lg overflow-hidden shadow-[0_4px_6px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out cursor-pointer ">
-          <img title="Click to see more" src={image3} alt="alt" className="" />
+          <img src={image3} alt="alt" />
         </div>
         <div className=" bg-color rounded-lg overflow-hidden shadow-[0_4px_6px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out cursor-pointer ">
-          <img title="Click to see more" src={image4} alt="alt" className="" />
+          <img src={image4} alt="alt" />
         </div>
         <div className=" bg-color rounded-lg overflow-hidden shadow-[0_4px_6px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out cursor-pointer ">
-          <img title="Click to see more" src={image5} alt="alt" className="" />
+          <img src={image5} alt="alt" />
         </div>
         <div className=" bg-color rounded-lg overflow-hidden shadow-[0_4px_6px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out cursor-pointer ">
-          <img title="Click to see more" src={image6} alt="alt" className="" />
+          <img src={image6} alt="alt" />
         </div>
       </div>
     </section>

@@ -15,17 +15,18 @@ function ProjectConfiguration() {
             <p className=" pl-[20px] md:pl-[36px]">Builtup Area (Sq.ft)</p>
             <p>Price</p>
           </div>
-          <div className=" w-full flex items-center justify-evenly gap-4 bg-white/70 text-black py-3 text-sm md:text-lg font-semibold rounded-b-md">
+          <div className=" w-full flex items-center justify-evenly gap-4 bg-white/70 text-black py-3 px-0.5 text-sm md:text-lg font-semibold rounded-b-md">
             <p className=" text-center">Premium Resort Plots</p>
             <p className=" pl-[12px] md:pl-0">6000 sq.ft Onwards</p>
             <div>
               <a
-                className=" bg-[#16A085] text-white px-2 md:px-4 py-1 md:py-2 rounded-md text-xs md:text-lg"
                 href={brochure}
                 download="PalmSerenityResortPlot-Brochure"
               >
-                {" "}
-                Unlock Price{" "}
+                <button className=" bg-[#16A085] text-white px-2 md:px-4 py-1 md:py-2 rounded-md text-xs md:text-lg">
+                Unlock Price
+                </button>
+                
               </a>
             </div>
           </div>

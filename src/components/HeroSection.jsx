@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import banner1 from "../assets/palm-banner1.jpg";
+import banner1 from "../assets/banner1.jpg";
 import { RxCross2 } from "react-icons/rx";
 import LeadForm from "./LeadForm";
 
